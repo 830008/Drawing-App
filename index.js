@@ -6,8 +6,8 @@ background(0)
 function mouseDragged() {
     c = color(255, 255, 255);
     strokeWeight(5);
-let thestroke = stroke(c);
-line(mouseX, mouseY, pmouseX, pmouseY);
+    stroke(c);
+    line(mouseX, mouseY, pmouseX, pmouseY);
 
 }
 function savefunction() {
